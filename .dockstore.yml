@@ -3,8 +3,6 @@ workflows:
   - subclass: WDL
     primaryDescriptorPath: /hello_input.wdl
     name: changed
-    authors:
-      - name: David Steinberg
   - subclass: WDL
     primaryDescriptorPath: /wdl-bootcamp/wdl-101-bam.wdl
     name: submodule
